@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/admin-weapons-panel/static/css/main.413206ec.css",
+    "main.js": "/admin-weapons-panel/static/js/main.0ebb029a.js",
+    "static/js/453.1a0e69a7.chunk.js": "/admin-weapons-panel/static/js/453.1a0e69a7.chunk.js",
+    "index.html": "/admin-weapons-panel/index.html",
+    "main.413206ec.css.map": "/admin-weapons-panel/static/css/main.413206ec.css.map",
+    "main.0ebb029a.js.map": "/admin-weapons-panel/static/js/main.0ebb029a.js.map",
+    "453.1a0e69a7.chunk.js.map": "/admin-weapons-panel/static/js/453.1a0e69a7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.413206ec.css",
+    "static/js/main.0ebb029a.js"
+  ]
+}
