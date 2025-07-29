@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/admin-weapons-panel/static/css/main.69ea797e.css",
-    "main.js": "/admin-weapons-panel/static/js/main.567e7571.js",
-    "static/js/453.1a0e69a7.chunk.js": "/admin-weapons-panel/static/js/453.1a0e69a7.chunk.js",
-    "index.html": "/admin-weapons-panel/index.html",
-    "main.69ea797e.css.map": "/admin-weapons-panel/static/css/main.69ea797e.css.map",
-    "main.567e7571.js.map": "/admin-weapons-panel/static/js/main.567e7571.js.map",
-    "453.1a0e69a7.chunk.js.map": "/admin-weapons-panel/static/js/453.1a0e69a7.chunk.js.map"
+    "main.css": "/admin-panel/static/css/main.69ea797e.css",
+    "main.js": "/admin-panel/static/js/main.78799043.js",
+    "static/js/453.1a0e69a7.chunk.js": "/admin-panel/static/js/453.1a0e69a7.chunk.js",
+    "index.html": "/admin-panel/index.html",
+    "main.69ea797e.css.map": "/admin-panel/static/css/main.69ea797e.css.map",
+    "main.78799043.js.map": "/admin-panel/static/js/main.78799043.js.map",
+    "453.1a0e69a7.chunk.js.map": "/admin-panel/static/js/453.1a0e69a7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69ea797e.css",
-    "static/js/main.567e7571.js"
+    "static/js/main.78799043.js"
   ]
 }
