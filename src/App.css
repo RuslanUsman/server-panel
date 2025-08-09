@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+body {
+  margin: 0;
+  background-color: #121212; /* или твой тематический фон */
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+}
+

@@ -1,0 +1,65 @@
+.sectionDescription {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 30px;
+  color: #cfcfcf;
+}
+
+/* Галерея */
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+}
+
+.image-item {
+  background-color: #1a1a1a;
+  border: 1px solid #444;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.05);
+  opacity: 0;
+  animation: fadeIn 0.4s ease forwards;
+  animation-delay: calc(var(--i) * 0.08s);
+  transform: translateY(10px);
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-item p {
+  padding: 14px;
+  font-size: 15px;
+  text-align: center;
+  color: #ddd;
+}
+
+/* Анимация */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+.introText {
+  font-size: 17px;
+  line-height: 1.7;
+  background: linear-gradient(to right, #2a2a2a, #1a1a1a);
+  padding: 20px;
+  border-radius: 10px;
+  color: #ddd;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.05);
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 0 1px 1px #000;
+}
+.introText strong {
+  color: #ffa03b;
+}

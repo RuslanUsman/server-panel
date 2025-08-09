@@ -1,0 +1,28 @@
+/* SharedPageStyles.module.scss */
+.pageWrapper {
+  padding: 24px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00000055;
+}
+
+.pageTitle {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #f0f0f0;
+}
+
+actionButton {
+  padding: 10px 16px;
+  background-color: #ff5400;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.actionButton:hover {
+  background-color: #ff7700;
+}

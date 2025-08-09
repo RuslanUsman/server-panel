@@ -1,0 +1,64 @@
+.wrapper {
+  padding: 40px;
+  background: radial-gradient(circle at top, #1e1e1e, #0f0f0f);
+  color: #ddd;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #f3f3f3;
+  text-shadow: 0 0 5px #8f8f8f;
+}
+
+.section {
+  margin-top: 30px;
+}
+
+.sectionTitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #555;
+}
+
+.buttonGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.button {
+  padding: 12px 20px;
+  font-size: 15px;
+  background-color: #2a2a2a;
+  color: #ddd;
+  border: 1px solid #444;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background-color: #3f3f3f;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.05);
+}
+
+
+.button {
+  opacity: 0;
+  animation: fadeIn 0.4s ease forwards;
+  animation-delay: calc(var(--i) * 0.08s);
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+

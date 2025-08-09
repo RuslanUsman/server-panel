@@ -1,0 +1,20 @@
+.modes-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.mode-btn {
+  padding: 12px 20px;
+  background-color: #2e2e2e;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.mode-btn:hover {
+  background-color: #505050;
+}

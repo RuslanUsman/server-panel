@@ -1,0 +1,48 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #101010;
+  color: #e0e0e0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+button {
+  margin: 20px 0;
+  padding: 12px 24px;
+  background: #272727;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #444;
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}

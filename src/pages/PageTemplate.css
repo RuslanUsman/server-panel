@@ -1,0 +1,21 @@
+.page-template {
+  padding: 28px;
+  background-color: #1d1d1d;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.4);
+  margin-top: 24px;
+}
+
+.page-title {
+  font-size: 24px;
+  color: #f0f0f0;
+  margin-bottom: 18px;
+}
+
+.page-content {
+  background-color: #252525;
+  border-radius: 8px;
+  padding: 16px;
+  color: #ccc;
+  font-size: 15px;
+}

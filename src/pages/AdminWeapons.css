@@ -1,0 +1,45 @@
+.weapon-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.weapon-card {
+  text-align: center;
+  background-color: #1e1e1e;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.weapon-image {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.weapon-description {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+
+.header-banner {
+  background: linear-gradient(to right, #242424, #3e3e3e);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.header-banner h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.header-banner p {
+  font-size: 16px;
+  color: #ccc;
+}
